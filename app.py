@@ -35,11 +35,19 @@ if nav == "Home / Overview":
     st.markdown("# Elite Physical Security Command & Contract Supervision")
     st.markdown("### National Deployment | Travel Ready | Executive Protection & Government Contracting")
     
-st.markdown("""<div class="metric-card"><h3>6'6" / 360 lbs</h3><p>Physical Command</p></div>""", unsafe_allow_html=True)
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.markdown('<div class="metric-card"><h3>6\'6" / 360 lbs</h3><p>Physical Command</p></div>', unsafe_allow_html=True)
+    with col2:
+        st.markdown('<div class="metric-card"><h3>5+ Years</h3><p>Tactical Security & PI</p></div>', unsafe_allow_html=True)
+    with col3:
+        st.markdown('<div class="metric-card"><h3>10+ Years</h3><p>Web & IT Infrastructure</p></div>', unsafe_allow_html=True)
+    with col4:
+        st.markdown('<div class="metric-card"><h3>Multi-State</h3><p>Armed & PI Licensed</p></div>', unsafe_allow_html=True)
 
-  
+    st.markdown("---")
     
-  
+    col_a, col_b = st.columns(2)
     with col_a:
         st.markdown("### 🎯 Core Capabilities")
         st.markdown("- **Executive Protection & Armed Guarding:** High-visibility deterrence, asset protection, and crowd management.")
