@@ -39,7 +39,7 @@ st.markdown("""<div class="metric-card"><h3>6'6" / 360 lbs</h3><p>Physical Comma
 
   
     
-    col_a, col_b = st.columns(2)
+  
     with col_a:
         st.markdown("### 🎯 Core Capabilities")
         st.markdown("- **Executive Protection & Armed Guarding:** High-visibility deterrence, asset protection, and crowd management.")
